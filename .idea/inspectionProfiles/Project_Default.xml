@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="49" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="whatsapp-chat-analyser" />
+          <option value="whatsapp-chat-analyser" />
+          <option value="whatsapp-chat-analyser" />
+          <option value="Car Price Prediction" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="null:djangorestframework-simplejwt:5.3.1" />
+          <option value="null:werkzeug:3.0.3" />
+          <option value="null:scikit-learn:1.2.2" />
+          <option value="null:djangorestframework-simplejwt:5.3.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
